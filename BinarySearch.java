@@ -12,6 +12,7 @@ public class BinarySearch {
             else
 		high = mid-1;
          }
-         return -1;
+         //return -1;
+         throw new RunTimeException("no target exist.");
      }
 }
