@@ -1,7 +1,10 @@
 public class BinarySearch {
+
     public static void main(String[] args)
     {
         (new BinarySearch()).bsearch(null, -1); 
+        int[] array = {1,2,4,5,6};
+        BinarySearch b = new BinarySearch(array, 4);
     }
 
     public int bsearch(int[] array, int taget) {
