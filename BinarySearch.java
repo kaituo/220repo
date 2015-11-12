@@ -1,4 +1,9 @@
 public class BinarySearch {
+    public static void main(String[] args) {
+        int[] array = {1,2,4,5,6};
+        BinarySearch b = new BinarySearch(array, 4);
+    }
+
     public int bsearch(int[] array, int taget) {
         int low = 0;
         int high = array.length-1;
